@@ -1,0 +1,49 @@
+# 忽略所有数据目录
+daily_data/
+kline_images/
+candle_images/
+multi_day_candles/
+all_themes_kline/
+all_themes_candle/
+all_themes_multi_day/
+
+# 忽略所有压缩包
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tar.gz
+
+# 忽略Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+
+# 日志文件
+*.log
+
+# 其他可能的数据文件
+*.csv
+*.xlsx
+*.xls
+*.json
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# 环境变量文件
+.env 
